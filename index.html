@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1c1d18">
+  <meta name="description" content="KIS Construction develops and builds its own residential projects. Discover who we are and explore Knightswood Estate in Sandown.">
+  <title>KIS Construction — Our developments. Our story.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/ground.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#approach">Skip the construction sequence</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="KIS Construction home"><img class="brand-logo" src="assets/kis-logo-light.svg" alt="KIS Construction" width="280" height="85"></a>
+    <nav aria-label="Main navigation">
+      <a href="#project" class="nav-story">Our developments</a>
+      <a href="#approach">About KIS</a>
+      <a class="button button-light header-cta" href="#contact">Contact <span class="button-dot" aria-hidden="true"></span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="construction-story" id="build" aria-label="Knightswood Estate from groundworks to completion">
+      <div class="story-sticky">
+        <div class="scene" aria-hidden="true">
+          <img class="scene-frame is-visible" src="assets/ground.webp" alt="" fetchpriority="high" data-frame="0">
+          <img class="scene-frame" src="assets/foundations.webp" alt="" decoding="async" data-frame="1">
+          <img class="scene-frame" src="assets/structure.webp" alt="" decoding="async" data-frame="2">
+          <img class="scene-frame" src="assets/roof.webp" alt="" decoding="async" data-frame="3">
+          <img class="scene-frame" src="assets/facade.webp" alt="" decoding="async" data-frame="4">
+          <img class="scene-frame" src="assets/finished.webp" alt="" decoding="async" data-frame="5">
+          <video class="construction-film" muted playsinline preload="none" tabindex="-1"></video>
+        </div>
+        <div class="scene-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span class="status-dot"></span> OUR DEVELOPMENTS. OUR STORY.</p>
+          <div class="chapter-copy" aria-live="off">
+            <h1 id="chapter-title">Great places.<br>Built from<br>the ground up.</h1>
+            <p id="chapter-description">Before the first key turns, every detail matters.<br>Scroll to see a place come to life.</p>
+          </div>
+          <button class="text-button play-button" id="play-build"><span class="play-indicator" aria-hidden="true"></span><span id="play-label">Play the build</span></button>
+        </div>
+        <div class="scene-caption"><span class="tiny-cross" aria-hidden="true"></span><span>KNIGHTSWOOD ESTATE<br><span class="caption-secondary">Sandown · A construction visualisation</span></span></div>
+        <div class="scroll-cue" aria-hidden="true"><span>SCROLL TO BUILD</span><div class="scroll-line"><i></i></div></div>
+        <div class="chapter-panel">
+          <div class="chapter-meta"><span><span class="live-dot" aria-hidden="true"></span> THE BUILD, UNFOLDING</span><span id="progress-label">01 / 06</span></div>
+          <nav class="chapters" aria-label="Construction stages">
+            <button class="chapter is-active" data-stage="0" aria-current="step"><span class="chapter-number">01</span><span class="chapter-name">Groundwork</span><span class="chapter-line"><i></i></span></button>
+            <button class="chapter" data-stage="1"><span class="chapter-number">02</span><span class="chapter-name">Foundations</span><span class="chapter-line"><i></i></span></button>
+            <button class="chapter" data-stage="2"><span class="chapter-number">03</span><span class="chapter-name">Structure</span><span class="chapter-line"><i></i></span></button>
+            <button class="chapter" data-stage="3"><span class="chapter-number">04</span><span class="chapter-name">Roof</span><span class="chapter-line"><i></i></span></button>
+            <button class="chapter" data-stage="4"><span class="chapter-number">05</span><span class="chapter-name">Façade</span><span class="chapter-line"><i></i></span></button>
+            <button class="chapter" data-stage="5"><span class="chapter-number">06</span><span class="chapter-name">Finishing</span><span class="chapter-line"><i></i></span></button>
+          </nav>
+        </div>
+        <p class="sr-only" id="scene-description">Groundwork: excavators, a backhoe loader and a tipper truck prepare the full Knightswood Estate site.</p>
+      </div>
+    </section>
+
+    <section class="approach section-pad" id="approach">
+      <div class="section-kicker"><span class="small-square"></span> WHO WE ARE <span class="section-index">01 / ABOUT KIS</span></div>
+      <div class="approach-grid">
+        <h2>Our vision.<br>Our developments.<br><span class="soft-text">Our commitment.</span></h2>
+        <div class="approach-copy"><p class="lead">We develop and build our own residential projects, from the first groundwork to the finishing details.</p><p>Based in Parklands, KIS Construction brings its own developments to life. Our work brings planning, construction and finishing together, with a focus on the homes and neighbourhoods we create.</p><a class="underlined-link" href="#project">Discover Knightswood Estate</a></div>
+      </div>
+      <div class="principles"><span>Residential development.</span><span>Construction.</span><span>Finishing.</span></div>
+    </section>
+
+    <section class="project" id="project" aria-labelledby="project-title">
+      <div class="project-image"><img src="assets/finished.webp" alt="Aerial visualisation of Knightswood Estate with six four-storey apartment blocks opposite eight pairs of two-storey duplex homes" loading="lazy" width="1536" height="1024"><span class="image-tag">THE VISION, REALISED</span></div>
+      <div class="project-info section-pad">
+        <div><p class="eyebrow dark-eyebrow">A KIS CONSTRUCTION PROJECT</p><h2 id="project-title">Knightswood<br>Estate.</h2></div>
+        <div class="project-detail"><p>Six apartment blocks. Sixteen duplex homes. One connected estate in Sandown. Cream façades, charcoal frames and sheltered balconies define a neighbourhood built around its private internal road.</p><dl><div><dt>LOCATION</dt><dd>66 Candlewood Crescent, Sandown</dd></div><div><dt>TYPE</dt><dd>Apartments &amp; duplex homes</dd></div><div><dt>ESTATE</dt><dd>Blocks A–F &amp; 16 duplex homes</dd></div></dl><button class="underlined-link" id="replay-build">Revisit the build</button></div>
+      </div>
+    </section>
+
+<div class="estate-gallery"><figure><img src="assets/knightswood-courtyard.webp" alt="Knightswood Estate during finishing works, with apartment balconies facing the duplex garages across the private road" loading="lazy" width="1600" height="1200"><figcaption>Inside Knightswood · Finishing works <a href="https://d21tw07c6rnmp0.cloudfront.net/media/uploads/398/projects/2025/6/398_11298d6c064f4f8a8c0fa1623711dcb3.jpg" target="_blank" rel="noopener noreferrer">Photo: Century 21</a></figcaption></figure><figure><img src="assets/knightswood-garden.webp" alt="Private garden beside a ground-floor Knightswood apartment with cream walls and black-framed sliding doors" loading="lazy" width="1421" height="1066"><figcaption>Space beyond the front door <a href="https://www.privateproperty.co.za/for-sale/western-cape/cape-town/blouberg/sandown/T5687237" target="_blank" rel="noopener noreferrer">Photo: property listing</a></figcaption></figure></div>
+<section class="estate-reference"><details class="estate-disclosure"><summary><span>Explore the estate layout</span><span class="toggle-sign" aria-hidden="true"></span></summary><div class="estate-map"><svg viewBox="0 0 1920 822" role="img" aria-labelledby="estate-map-title estate-map-desc"><title id="estate-map-title">Knightswood Estate arrangement</title><desc id="estate-map-desc">Six apartment blocks face sixteen duplex homes across one private road. The Candlewood entrance divides the duplexes into six homes and ten homes. Hawthorn Street wraps around the end of the site. Schematic traced from the published first-floor plan.</desc><path class="map-road" d="M50 60H1770Q1860 60 1860 150V650Q1860 760 1760 760H50"/><path class="map-boundary" d="M70 94H1745L1833 180V633L1740 719H70Z"/><path class="map-drive" d="M88 310H1807V460H88Z"/><path class="map-drive" d="M665 62H794L780 310H677Z"/><text class="map-street" x="460" y="32">CANDLEWOOD CRESCENT</text><text class="map-street" x="820" y="805">HAWTHORN STREET</text><text class="map-lane" x="1050" y="395">PRIVATE ROAD</text><text class="map-lane" x="728" y="205" text-anchor="middle" transform="rotate(-90 728 205)">ENTRANCE</text><rect class="map-duplex" x="89" y="137" width="91.5" height="130"/><path class="map-garden" d="M89 112h91.5v20h-91.5Z"/><rect class="map-duplex" x="184.5" y="137" width="91.5" height="130"/><path class="map-garden" d="M184.5 112h91.5v20h-91.5Z"/><rect class="map-duplex" x="279" y="137" width="91.5" height="130"/><path class="map-garden" d="M279 112h91.5v20h-91.5Z"/><rect class="map-duplex" x="374.5" y="137" width="91.5" height="130"/><path class="map-garden" d="M374.5 112h91.5v20h-91.5Z"/><rect class="map-duplex" x="469" y="137" width="92.0" height="130"/><path class="map-garden" d="M469 112h92.0v20h-92.0Z"/><rect class="map-duplex" x="565.0" y="137" width="92.0" height="130"/><path class="map-garden" d="M565.0 112h92.0v20h-92.0Z"/><rect class="map-duplex" x="810" y="137" width="91.5" height="130"/><path class="map-garden" d="M810 112h91.5v20h-91.5Z"/><rect class="map-duplex" x="905.5" y="137" width="91.5" height="130"/><path class="map-garden" d="M905.5 112h91.5v20h-91.5Z"/><rect class="map-duplex" x="1000" y="137" width="91.5" height="130"/><path class="map-garden" d="M1000 112h91.5v20h-91.5Z"/><rect class="map-duplex" x="1095.5" y="137" width="91.5" height="130"/><path class="map-garden" d="M1095.5 112h91.5v20h-91.5Z"/><rect class="map-duplex" x="1190" y="137" width="91.5" height="130"/><path class="map-garden" d="M1190 112h91.5v20h-91.5Z"/><rect class="map-duplex" x="1285.5" y="137" width="91.5" height="130"/><path class="map-garden" d="M1285.5 112h91.5v20h-91.5Z"/><rect class="map-duplex" x="1380" y="137" width="91.5" height="130"/><path class="map-garden" d="M1380 112h91.5v20h-91.5Z"/><rect class="map-duplex" x="1475.5" y="137" width="91.5" height="130"/><path class="map-garden" d="M1475.5 112h91.5v20h-91.5Z"/><rect class="map-duplex" x="1570" y="137" width="91.5" height="130"/><path class="map-garden" d="M1570 112h91.5v20h-91.5Z"/><rect class="map-duplex" x="1665.5" y="137" width="91.5" height="130"/><path class="map-garden" d="M1665.5 112h91.5v20h-91.5Z"/><path class="map-apartment" d="M89 547h38v-29h87.0v25h36v-25h87.0v29h38v130H89Z"/><path class="map-core" d="M216.0 543v114h32V543Z"/><path class="map-apartment" d="M383 547h38v-29h82.5v25h36v-25h82.5v29h38v130H383Z"/><path class="map-core" d="M505.5 543v114h32V543Z"/><path class="map-apartment" d="M694 547h38v-29h100.5v25h36v-25h100.5v29h38v130H694Z"/><path class="map-core" d="M834.5 543v114h32V543Z"/><path class="map-apartment" d="M1015 547h38v-29h70.0v25h36v-25h70.0v29h38v130H1015Z"/><path class="map-core" d="M1125.0 543v114h32V543Z"/><path class="map-apartment" d="M1304 547h38v-29h87.0v25h36v-25h87.0v29h38v130H1304Z"/><path class="map-core" d="M1431.0 543v114h32V543Z"/><path class="map-apartment" d="M1598 547h38v-29h39.5v25h36v-25h39.5v29h38v130H1598Z"/><path class="map-core" d="M1677.5 543v114h32V543Z"/></svg></div><div class="map-legend"><span><i class="legend-apartment"></i>6 apartment blocks · A–F</span><span><i class="legend-duplex"></i>16 duplex homes · 8 pairs</span><span>Approximately 133 m along the long boundary</span></div><p class="map-note">Estate arrangement traced from the published first-floor plan. <a href="https://d21tw07c6rnmp0.cloudfront.net/media/uploads/398/projects/2025/6/398_e4d775b2cdfe4fe8a3e923e65c7928c6.jpg" target="_blank" rel="noopener noreferrer">View the architectural plan</a></p></details></section>
+    <section class="contact section-pad" id="contact"><p class="eyebrow">KIS CONSTRUCTION</p><div class="contact-row"><h2>Places to live.<br>A story to share.</h2><div><p>Developing and building our own residential projects.<br>Based in Parklands, Cape Town.</p><a class="underlined-link" href="mailto:syd@kisconstruction.co.za">Contact KIS</a></div></div><div class="contact-details"><div><span>TELEPHONE</span><a href="tel:+27833212611">083 321 2611</a><a href="tel:+27215579008">021 557 9008</a></div><div><span>EMAIL</span><a href="mailto:syd@kisconstruction.co.za">syd@kisconstruction.co.za</a></div><div><span>OFFICE</span><address>4 Northumberland Close<br>Parklands, Table View, 7441</address></div></div><div class="contact-rule"></div><footer><a href="#top" class="footer-brand"><img class="brand-logo" src="assets/kis-logo-light.svg" alt="KIS Construction" width="280" height="85"></a><span>CONSIDERED. CONSTRUCTED. COMPLETE.</span><a href="#top">Back to top</a></footer><p class="concept-note">KIZ Construction cc t/a KIS Construction<br>Construction sequence: illustrative reconstruction based on published plans and reference photographs.</p></section>
+  </main>
+
+</body>
+</html>
